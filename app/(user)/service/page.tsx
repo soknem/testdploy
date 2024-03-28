@@ -17,7 +17,7 @@ export default function Page() {
       .then((data) => setProducts(data));
   }, []);
   return (
-    <div className="h-auto w-full px-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 my-2">
+    <div className="h-auto w-full px-2 lg:px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 my-2">
       {products.map((product: any, index) => (
         <CardServiceComponent
           onClick={() => router.push(`/service/${product.id}`)}

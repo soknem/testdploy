@@ -17,7 +17,7 @@ export default async function CardServiceComponent({
   return (
     <Card
       onClick={onClick}
-      className="max-w-[600px] sm:w-full min-w-[250px]  min-h-[300px] max-h-[400px] hover:border-gray-400 hover:scale-[103%] hover:shadow-md duration-200"
+      className="w-full min-w-[250px]  min-h-[300px] max-h-[400px] hover:border-gray-400 hover:scale-[103%] hover:shadow-md duration-200"
       renderImage={() => (
         <img
           className=" object-contain w-full h-full overflow-hidden mx-auto p-1"
