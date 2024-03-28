@@ -5,6 +5,13 @@ import CardContentComponent from "@/components/card/CardContentComponent";
 import Pagination from "@/components/pagination/PaginationComponent"; // Import the Pagination component
 import React from "react";
 
+type PaginationProps = {
+  currentPage: number;
+  totalPages: number;
+  onPageChange: (page: number) => void;
+  previousLabel: string;
+  nextLabel: string;
+};
 export default function News() {
   const [currentPage, setCurrentPage] = useState(1);
 
@@ -27,7 +34,7 @@ export default function News() {
       </div>
       <div className="flex justify-center mt-4">
         <Pagination
-          layout="pagination"
+          // layout="pagination"
           currentPage={currentPage}
           totalPages={Math.ceil(content.length / itemsPerPage)}
           onPageChange={onPageChange}

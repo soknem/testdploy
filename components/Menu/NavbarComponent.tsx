@@ -51,6 +51,7 @@ function NavbarComponent() {
       <NavbarCollapse>
         {menu.map((item, index) => (
           <NavbarLink
+          key={index}
             onClick={() => updateMenuList(item.path)}
             as={Link}
             href={item.path}

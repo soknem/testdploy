@@ -1,7 +1,7 @@
 type Props = {
-  params: { key: string };
-  searchParam: any;
-};
+  params: { id: string }
+  searchParams: { [key: string]: string | string[] | undefined }
+}
 import style from "./style.module.css";
 import Button from "./components/Button";
 import { ConfirmIcon } from "@/components/icons/FontAwesome";

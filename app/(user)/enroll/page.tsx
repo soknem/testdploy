@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function enroll() {
+export default function Enroll() {
   return (
     <section className="w-[80%] mx-auto mt-24">
       <h1 className="text-center text-[2rem] font-bold">ENROLL FORM</h1>
@@ -110,8 +110,8 @@ export default function enroll() {
               >
                 <option value="">Select education level</option>
                 <option value="high-school">High School</option>
-                <option value="bachelor">Bachelor's Degree</option>
-                <option value="master">Master's Degree</option>
+                <option value="bachelor">Bachelor&apos;s Degree</option>
+                <option value="master">Master&apos;s Degree</option>
                 <option value="phd">PhD</option>
               </select>
             </div>
@@ -126,7 +126,7 @@ export default function enroll() {
                 className="appearance-none rounded-md relative block w-full px-3 py-2 border border-gray-300 focus:outline-none focus:ring-indigo-500 focus:ring-w-1 text-gray-700 shadow-sm"
                 id="education"
               >
-                <option value="">Select univesity level</option>
+                <option value="">Select university level</option>
                 <option value="high-school">RUPP</option>
                 <option value="bachelor">CSTAD</option>
                 <option value="master">NUM</option>
@@ -154,16 +154,15 @@ export default function enroll() {
           </div>
           <div className="flex flex-wrap mx-3 mb-6">
             <div className="w-full px-3 flex gap-14 flex flex-row justify-end items-end">
-             
               <button
                 type="submit"
-                className="tracking-wider w-[200px]  border-solid border-2 border-red-400 text-red-500 hover:text-white hover:bg-red-500  font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                className="tracking-wider w-[200px] border-solid border-2 border-red-400 text-red-500 hover:text-white hover:bg-red-500 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
               >
                 Cancel
               </button>
               <button
                 type="submit"
-                className="tracking-wider w-[200px]  border-solid border-2 border-green-400 text-green-500 hover:text-white hover:bg-green-500  font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                className="tracking-wider w-[200px] border-solid border-2 border-green-400 text-green-500 hover:text-white hover:bg-green-500 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
               >
                 Enroll
               </button>
